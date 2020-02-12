@@ -1,0 +1,16 @@
+[http_service]
+    ip = "127.0.0.1"
+    port = 6008
+    protocol = "http"
+[http_case]
+    path = "/TestCase/Http_TestCase.xlsx"
+
+[dubbo_service]
+    ip = "127.0.0.1"
+    port = 62000
+    protocol = ""
+[dubbo_case]
+    path = "/TestCase/Http_TestCase.xlsx"
+
+[ding_talk]
+    post_url = ""
