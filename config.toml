@@ -1,16 +1,21 @@
+[module]
+    name = "TestHttpService"
+[case]
+    http_case_path = "/TestCase/Http_TestCase.xlsx"
+    dubbo_case_path = "/TestCase/Dubbo_TestCase.xlsx"
 [http_service]
     ip = "127.0.0.1"
-    port = 6008
+    port = 8199
     protocol = "http"
-[http_case]
-    path = "/TestCase/Http_TestCase.xlsx"
-
 [dubbo_service]
     ip = "127.0.0.1"
     port = 62000
     protocol = ""
-[dubbo_case]
-    path = "/TestCase/Http_TestCase.xlsx"
-
 [ding_talk]
     post_url = ""
+[ftp]
+    host = "127.0.0.1"
+    username = "reporter"
+    password = "123456"
+    path = "./"
+    http_root_url = "http://127.0.0.1/TestReport/"

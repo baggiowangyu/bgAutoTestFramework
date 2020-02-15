@@ -12,6 +12,8 @@
 ```
 pip install toml
 pip install xlrd
+pip install requests
+pip install jsonpatch
 ```
 
 ## 测试用例模板
